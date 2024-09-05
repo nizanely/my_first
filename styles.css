@@ -47,6 +47,9 @@ h1 {
     color: #790c58;
     margin-bottom: 20px;
 }
+h2 {
+   dir:rtl;
+}
 
 p {
     font-size: 18px;
