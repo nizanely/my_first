@@ -4,7 +4,7 @@ body {
     padding: 0;
     background-color: #f5f5f5;
     color: #333;
-    text-align: center;
+    text-align: right;
     direction: rtl;
 }
 
@@ -47,9 +47,7 @@ h1 {
     color: #790c58;
     margin-bottom: 20px;
 }
-h2 {
-   dir:rtl;
-}
+
 
 p {
     font-size: 18px;
