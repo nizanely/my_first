@@ -26,21 +26,21 @@ header {
 
 .profile {
     display: flex;
-    align-items: center;
-    justify-content: center;
+    align-items: flex-start; /* יישור התוכן לקצה העליון */
     margin-bottom: 20px;
 }
 
 .profile-pic {
     width: 150px;
-    height: 150px;
+    height: auto;
     border-radius: 50%;
-    margin-right: 20px;
+    margin-left: 20px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
 
 .description {
     text-align: left;
+    flex: 1; /* מאפשר לתיאור לתפוס את כל השטח הזמין */
 }
 
 h1 {
